@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProphetWiki</title>
+	<link rel="icon" type="image/x-icon" href="images/SCPF_Logo.png">
+    <link rel="stylesheet" href="style.css">
+		<meta content="ProphetWiki" property="og:title" />
+<meta content="Welcome to the ProphetWiki, your one-stop destination for exploring the rich lore and detailed information about our universe! Here, you’ll find everything from in-depth descriptions of anomalies and their unique properties to comprehensive guides on tools, equipment, and other critical elements that define our world." property="og:description" />
+<meta content="https://scpfprophet.github.io/site/wiki.html" property="og:url" />
+<meta content="https://scpfprophet.github.io/site/images/prophetwikilogo.png" property="og:image" />
+<meta name="twitter:card" content="summary_large_image">
+<meta content="#ffffff" data-react-helmet="true" name="theme-color" />
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+    <div class="logo">
+        <img src="images/prophetwikilogo.png" alt="Logo" class="logo-img"></div>
+        <nav class="main-navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="wiki.html">WIKI</a></li>
+				<li><a href="support.html">SUPPORT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wiki Content -->
+    <div class="content-container wiki">
+        <div class="wiki-content">
+
+			<img height="70" width="auto" src="images/prophetwikilogo.png" alt="" class="headmainwiki">
+			
+<!-- Search Bar -->
+<div class="search-bar-container">
+    <input type="text" id="search-bar" placeholder="Search the wiki..." oninput="filterPages()">
+    <div id="suggestions" class="suggestions-box"></div>
+</div>
+
+<div class="note-box" data-color="red">
+    <strong>MIGRATION&nbsp;</strong>
+    <span>The old Project Prophet Fandom Wikipedia is deprecated. Official information can be found on this website. Please be patient while all pages are transfered.</span>
+</div>
+			
+<p align="center">
+    Welcome to the ProphetWiki, your one-stop destination for exploring the rich lore and detailed information about our universe! Here, you’ll find everything from in-depth descriptions of anomalies and their unique properties to comprehensive guides on tools, equipment, and other critical elements that define our world. 
+    The ProphetWiki is carefully curated and continuously updated by dedicated members of the Lore Department, ensuring accuracy and consistency across all entries. Whether you’re a seasoned community member or a curious newcomer, we encourage you to dive into the expansive knowledge stored here.
+<br><br>
+    Have your own stories or characters to contribute? We’d love to see them! Join our thriving community on <a href="https://discord.gg/We7zdX4bAB">Discord</a>, where you can submit your own lore, characters, and ideas. Collaborate with other passionate members, share your creativity, and help shape the ever-growing world of the Prophet Project. Your contributions might even become part of the official canon!
+</p>
+			
+
+
+          <!-- Categories -->
+            <h2>Categories</h2>
+            <ul class="categories-list">
+                <li><a href="#" onclick="filterByCategory('Personnel')">Personnel</a></li>
+                <li><a href="#" onclick="filterByCategory('Research')">Research</a></li>
+				<li><a href="#" onclick="filterByCategory('GOI')">Groups of Interest</a></li>
+				<li><a href="#" onclick="filterByCategory('Departments')">Departments</a></li>
+                <li><a href="#" onclick="filterByCategory('Anomalies')">Anomalies</a></li>
+				<li><a href="#" onclick="filterByCategory('Logs')">Logs</a></li>
+            </ul>
+
+            <!-- Wiki Pages -->
+            <h2>All Pages</h2>
+            <ul id="wiki-pages-list" align="center">
+                <li data-category="Anomalies"><a href="anomalies/scp-682.html">SCP-682</a></li>
+                <li data-category="Anomalies"><a href="anomalies/scp-999.html">SCP-999</a></li>
+				<li data-category="Anomalies"><a href="anomalies/scp-049.html">SCP-049</a></li>
+				<li data-category="Anomalies"><a href="anomalies/scp-082.html">SCP-082</a></li>
+				<li data-category="Anomalies"><a href="anomalies/subject-666.html">SUBJECT-666</a></li>
+				<li data-category="Anomalies"><a href="anomalies/subject-9481.html">SUBJECT-9481</a></li>
+                <li data-category="Personnel"><a href="personnel/dr_bright.html">Jack James Bright</a></li>
+				<li data-category="Personnel"><a href="personnel/yeva_bright.html">Yeva Bright</a></li>
+				<li data-category="Personnel"><a href="personnel/bright_family.html">Bright Family</a></li>
+				<li data-category="Personnel"><a href="personnel/ruben-michigan.html">Ruben Michigan</a></li>
+				<li data-category="Personnel"><a href="personnel/wassup-smith.html">Wassup Smith</a></li>
+				<li data-category="Personnel"><a href="personnel/jaxion-alexander.html">Jaxion Alexander</a></li>
+				<li data-category="Personnel"><a href="personnel/david-henderson.html">David Henderson</a></li>
+				<li data-category="Personnel"><a href="personnel/onyx-graves.html">Onyx Graves</a></li>
+				<li data-category="Logs"><a href="logs/raid_on_site_0.html">Raid on Site-0</a></li>
+				<li data-category="Logs"><a href="logs/pandora-instability.html">Pandora Instability</a></li>
+				<li data-category="Departments"><a href="departments/security-department.html">Security Department</a></li>
+				<li data-category="GOI"><a href="groups-of-interest/the-cool-kids.html">The Cool Kids</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 PROPHET SCPF</p>
+    </footer>
+
+    <script src="wiki.js"></script>
+</body>
+</html>
